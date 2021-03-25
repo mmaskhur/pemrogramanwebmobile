@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+      .row.content {
+        height: 450px;
+      }
+
+      .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+
+      @media screen and (max-width: 767px) {
+        footer {
+          position: relative;
+        }
+
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+
+        .row.content {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="latBprofile.html">Profile</a></li>
+            <li><a href="latBproduct.html">Product</a></li>
+            <li><a href="latBservice.html">Services</a></li>
+            <li><a href="latBcontact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-log-in"></span>
+                Login
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+          <p><a href="https://dikti.go.id/">RISTEK DIKTI</a></p>
+          <p><a href="https://unisbank.ac.id/">UNISBANK</a></p>
+          <p><a href="https://fti.unisbank.ac.id/">FTI UNISBANK</a></p>
+        </div>
+        <div class="col-sm-8 text-left">
+          <h1>Welcome</h1>
+          <p>
+            Selamat datang, melalui website ini kami berupaya untuk memberikan wadah
+			kepada pelajar untuk berbagi ilmu mengenai Pemrograman Web Mobile.
+			Anda dapat dengan bebas membagikan pengalaman Anda seputar mater Pemrograman Web Mobile.
+          </p>
+          <hr />
+          <h3>Motto</h3>
+          <p>"Maju untuk mengembangkan teknologi di Indonesia"</p>
+        </div>
+        <div class="sol-sm-2 sidenav">
+          <div class="well">
+            <p>ADS</p>
+          </div>
+          <div class="well">
+            <p>ADS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <p>Produced bt Teknik Informatika Unisbank Semarang</p>
+    </footer>
+  </body>
+</html>
